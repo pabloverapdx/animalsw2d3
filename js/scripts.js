@@ -9,8 +9,8 @@ $(document).ready(function() {
   }
   if (choice === 'birds') {
     $('#birds').show();
-      }
+  }
   else {
-    alert("check your spelling")
+    $alert("check your spelling");
   }
 });
