@@ -4,13 +4,13 @@ $(document).ready(function() {
   if (choice === 'dogs') {
     $('#dogs').show();
   }
-  if (choice === 'cats') {
+  else if (choice === 'cats') {
     $('#cats').show();
   }
-  if (choice === 'birds') {
+  else if (choice === 'birds') {
     $('#birds').show();
   }
   else {
-    $alert("check your spelling");
+    alert("check your spelling");
   }
 });
